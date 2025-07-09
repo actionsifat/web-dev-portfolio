@@ -8,6 +8,12 @@
 }
 
 /* shared style */
+.text-center{
+    text-align: center;
+}
+.secondary-bg{
+    background-color:#FFF8F3;
+}
 .text-primary{
     color:#FD6E0A;
 }
@@ -24,6 +30,17 @@
     padding:18px 35px;
     border-radius: 5%;
     border:none;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* nav styles */
@@ -52,4 +69,83 @@ nav ul li{
 nav ul li a{
     text-decoration: none;    
     font-size: 20px; 
+}
+
+/* header styles */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content:space-between ;
+    margin: 0 35px 0 230px;
+}
+
+.banner .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner .banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.banner .banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.banner-profile-pic{
+    width: 584px;
+
+}
+
+/* main styles */
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    main .section{
+        margin-top: 130px;
+        margin-bottom: 130px ;
+    }
+/* about styles      */
+
+.about{     
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+
+.about-me-area{
+    background-color: white;
+    border: 1px solid #cac6c6;
+    padding: 0 22px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+font-weight:600;
+}
+
+/* skills styles     */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
